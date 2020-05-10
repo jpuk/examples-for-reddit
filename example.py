@@ -2,6 +2,10 @@ class Staff():
     def __init__(self, first_name, last_name, job_title, salary=None):
         # __init__ is a special function that gets called when a new object of Staff()
         # is created.
+        # Any variables passed to the object on creation will need to be delt with in this
+        # function, first_name, last_name, etc will either need to be processed or stored in some
+        # way if needed later.
+        # we use self as a reference to the current instance of this object
         # Use it to initialize your variables and run any set up code
         if salary:
             self._salary = salary
