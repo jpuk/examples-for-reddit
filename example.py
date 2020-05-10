@@ -1,5 +1,8 @@
 class Staff():
     def __init__(self, first_name, last_name, job_title, salary=None):
+        # __init__ is a special function that gets called when a new object of Staff()
+        # is created.
+        # Use it to initialize your variables and run any set up code
         if salary:
             self._salary = salary
         else:
