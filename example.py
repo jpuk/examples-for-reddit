@@ -45,8 +45,12 @@ print(type(my_staff))
 my_staff.append(Staff("John", "Doe", "IT Manager", salary=50000))
 my_staff.append(Staff("Jane", "Smith", "IT Director", salary=75000))
 
+# john gets a payrise
+my_staff[0].update_salary(55000)
+
 for individual in my_staff:
     print(individual.get_salary())
 
+# everyone gets fired
 for staff in my_staff:
     individual.remove_user_account()
