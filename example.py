@@ -52,5 +52,5 @@ for individual in my_staff:
     print(individual.get_salary())
 
 # everyone gets fired
-for staff in my_staff:
+for individual in my_staff:
     individual.remove_user_account()
