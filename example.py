@@ -40,8 +40,10 @@ class Staff():
         print("Some code here that deletes user account {}.".format(self._username))
 
 
+# list to hold all my staff members
 my_staff = []
-print(type(my_staff))
+
+# create new staff objects and add them to the list of staff
 my_staff.append(Staff("John", "Doe", "IT Manager", salary=50000))
 my_staff.append(Staff("Jane", "Smith", "IT Director", salary=75000))
 
